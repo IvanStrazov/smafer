@@ -8,6 +8,7 @@ import pandas as pd
 
 
 class __BaseModel(ABC):
+
     @abstractmethod
     def fit(self, X, y, *args, **kwargs) -> pd.Series: pass
 
